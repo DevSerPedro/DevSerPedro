@@ -2,7 +2,7 @@
     h1 {
         color: red;
     }
-<style>
+</style>
 
 <div>
 <h1 style="border-bottom:none; margin-bottom:0; padding: 0">Pedro Augusto</h1>
