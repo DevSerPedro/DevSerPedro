@@ -9,6 +9,7 @@ Olá! 👋 Eu sou o Pedro, um desenvolvedor frontend apaixonado por criar interf
     <div style="flex: 1; text-align: center;">🚀 Especializado em React e Angular</div>
     <div style="flex: 1; text-align: center;">🌐 Sempre em busca de desafios e aprendizado</div>
 </div>
+
 ## Projetos Destacados
 
 Aqui estão alguns dos meus projetos mais recentes e interessantes:
