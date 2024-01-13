@@ -1,4 +1,4 @@
-# Pedro - Desenvolvedor Frontend
+<h1> Pedro Augusto</h1>  - Desenvolvedor Frontend
 
 Olá! 👋 Eu sou o Pedro, um desenvolvedor frontend apaixonado por criar interfaces incríveis usando React e Angular. Este é o meu perfil no GitHub, onde compartilho alguns dos meus projetos e códigos.
 
