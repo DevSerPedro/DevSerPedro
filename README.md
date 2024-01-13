@@ -1,4 +1,4 @@
-<p> Pedro Augusto </p>
+<p style="font-size:10px"> Pedro Augusto </p>
 <p>Desenvolvedor Frontend </p>
 <hr>
 
