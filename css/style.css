@@ -1,0 +1,88 @@
+@media print{
+    #simple-profile-container hr{
+        display: none;
+    }
+}
+
+#simple-profile-container hr{
+    border: none;
+    margin: 35px 0;
+}
+
+.profile-page {
+    position: relative;
+    margin: auto;
+    padding: 90px;
+
+    width: 210mm;
+    height: 297mm;
+
+
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0) 0px 0px 16px -7px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 16px -7px;
+    -moz-box-shadow: rgb(0, 0, 0) 0px 0px 16px -7px;
+}
+
+.page-count {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.profile-subtitles {
+    background-color: #f2f1ec;
+    padding: 10px 10px;
+    font-size: 20px;
+
+    margin: 20px 0;
+}
+
+/* profile-header */
+
+#profile-header {
+    display: flex;
+    align-items: center;
+}
+
+#profile-header figure {
+    display: flex;
+}
+
+#profile-header figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: calc(100% - 140px);
+    margin-left: 15px;
+}
+
+#profile-header figcaption>h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#profile-header img {
+    width: 130px;
+    height: 130px;
+
+    border-radius: 50%;
+    background-color: black;
+    object-fit: cover;
+}
+
+/* profile-body */
+
+/* personal-informations */
+
+#personal-informations h2{}
+
+#personal-informations ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#personal-informations ul:last-child{
+    margin-bottom: 0px;
+}
