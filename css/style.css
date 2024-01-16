@@ -1,18 +1,42 @@
-@media print{
-    #simple-profile-container hr{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@media print {
+    #simple-profile-container hr {
         display: none;
+    }
+
+    .profile-page {
+        box-shadow: rgba(0, 0, 0, 0) -100px -100px 0px -100px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0) -100px -100px 0px -100px;
+        -moz-box-shadow: rgba(0, 0, 0, 0) -100px -100px 0px -100px;
     }
 }
 
-#simple-profile-container hr{
+#simple-profile-container hr {
     border: none;
     margin: 35px 0;
 }
 
+.font500 {
+    font-weight: 500;
+}
+
+.font600 {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Definições reutilizaveis */
+
 .profile-page {
+    cursor: default;
     position: relative;
     margin: auto;
-    padding: 90px;
+    padding: 80px;
 
     width: 210mm;
     height: 297mm;
@@ -22,31 +46,120 @@
     box-shadow: rgb(0, 0, 0) 0px 0px 16px -7px;
     -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 16px -7px;
     -moz-box-shadow: rgb(0, 0, 0) 0px 0px 16px -7px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.page-count {
+.profile-page li {
+    color: #365B6D;
+}
+
+p.page-count {
     position: absolute;
     bottom: 30px;
     right: 30px;
+
+    font-size: 8px;
+    color: #567686;
 }
 
-.profile-subtitles {
-    background-color: #f2f1ec;
+section.personal-topcs {
+    margin-bottom: 20px;
+}
+
+section.personal-topcs:last-child {
+    margin-bottom: 0px;
+}
+
+h2.profile-subtitles {
     padding: 10px 10px;
-    font-size: 20px;
+    margin-bottom: 20px;
 
-    margin: 20px 0;
+    color: #365B6D;
+    font-size: 15px;
+
+    border-radius: 5px;
+    background-color: #f2f1ec;
+    transition: border-radius 0.5s ease;
 }
+
+h2.profile-subtitles:hover {
+    border-radius: 0px;
+}
+
+ul.normal-list {
+    list-style: none;
+    padding: 0 10px;
+}
+
+li.normal-line {
+    margin-bottom: 5px;
+    transition: margin-left 0.5s ease;
+}
+
+li.normal-line:hover {
+    margin-left: 6px;
+}
+
+li.normal-line,
+li.simple-line {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* ----------------------------------------- Primeira pagina ------------------------------------------------ */
 
 /* profile-header */
 
 #profile-header {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 #profile-header figure {
+    position: relative;
     display: flex;
+}
+
+#image-link {
+    overflow: hidden;
+
+    position: relative;
+    width: 130px;
+    height: 130px;
+
+    border-radius: 50%;
+}
+
+#image-link #photo-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 130px;
+    height: 130px;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.548);
+
+    transition: opacity 0.5s ease;
+}
+
+#image-link #photo-help:hover {
+    opacity: 100%;
+}
+
+#profile-header img {
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    object-fit: cover;
 }
 
 #profile-header figcaption {
@@ -54,35 +167,85 @@
     flex-direction: column;
     justify-content: center;
 
-    width: calc(100% - 140px);
+    flex: 1;
+    /* width: calc(100% - 140px); */
     margin-left: 15px;
 }
 
 #profile-header figcaption>h1 {
-    font-size: 25px;
     margin-bottom: 10px;
+
+    font-size: 20px;
+    color: #365B6D;
 }
 
-#profile-header img {
-    width: 130px;
-    height: 130px;
-
-    border-radius: 50%;
-    background-color: black;
-    object-fit: cover;
+#profile-header figcaption>p {
+    color: #365B6D;
+    font-size: 15px;
+    font-weight: 300;
 }
-
-/* profile-body */
 
 /* personal-informations */
 
-#personal-informations h2{}
-
-#personal-informations ul{
+#personal-informations ul {
     list-style: none;
     margin-bottom: 20px;
 }
 
-#personal-informations ul:last-child{
+#personal-informations ul:last-child {
+    margin-bottom: 0px;
+}
+
+/* personal-habilits */
+
+ul#habilits-info {
+    list-style: circle inside;
+}
+
+#habilits-info>li:hover {
+    list-style: inside;
+}
+
+/* personal-formations */
+
+ul#first-formation {
+    transition: border-left 0.3;
+}
+
+ul#first-formation:hover {
+    border-left: 3px solid #365b6d;
+    padding-left: 7px;
+}
+
+/* ----------------------------------------- Segunda pagina ------------------------------------------------ */
+
+/* personal-experiences */
+
+.profile-page h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.line-experience {
+    display: flex;
+    width: 80px;
+    height: 2px;
+
+    margin-top: 30px;
+
+    background-color: #365B6D;
+}
+
+.experience p:nth-child(4){
+    margin-top: 10px;
+}
+
+#personal-experience-list li,
+#personal-courses li {
+    margin-bottom: 30px;
+}
+
+#personal-experience-list li:last-child,
+#personal-courses li:last-child{
     margin-bottom: 0px;
 }

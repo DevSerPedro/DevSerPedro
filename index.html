@@ -20,10 +20,13 @@
 <body>
     <div id="simple-profile-container">
         <hr>
-        <div class="profile-page">
+        <div class="profile-page" style="display: block;">
             <header id="profile-header">
                 <figure>
-                    <img src="/assets/img/20231116.jpg" alt="Foto Pedro Augusto" srcset="">
+                    <a id="image-link" href="/assets/img/20231116.jpg" target="_blank">
+                        <span id="photo-help">Abrir foto</span>
+                        <img src="/assets/img/20231116.jpg" alt="Foto Pedro Augusto" srcset="">
+                    </a>
                     <figcaption>
                         <h1>Pedro Augusto Chaves da Silva</h1>
                         <p>Técnico em suporte ao cliente e ao usuário, iniciante na área de
@@ -33,55 +36,122 @@
                 </figure>
             </header>
             <div id="profile-body">
-                <section id="personal-informations">
+                <section id="personal-informations" class="personal-topcs">
                     <h2 class="profile-subtitles">Informações pessoais</h2>
-                    <ul id="personal-info">
-                        <li>Data de nascimento: 29/06/2003
+                    <ul id="personal-info" class="normal-list">
+                        <li class="normal-line"><span class="font500">Data de nascimento:</span> 29/06/2003
                         </li>
-                        <li>Nacionalidade: Brasileira
+                        <li class="normal-line"><span class="font500">Nacionalidade:</span> Brasileira
                         </li>
-                        <li>Estado civil: Solteiro</li>
+                        <li class="normal-line"><span class="font500">Estado civil:</span> Solteiro</li>
                     </ul>
-                    <ul id="personal-location">
-                        <li>CEP: 07051090</li>
-                        <li>Jardim Tranquilidade - Guarulhos - SP</li>
+                    <ul id="personal-location" class="normal-list">
+                        <li class="normal-line"><span class="font500">CEP:</span> 07051090</li>
+                        <li class="normal-line">Jardim Tranquilidade - Guarulhos - SP</li>
+                    </ul>
+                </section>
+                <section id="personal-contato" class="personal-topcs">
+                    <h2 class="profile-subtitles">Contato</h2>
+                    <ul id="contato-info" class="normal-list">
+                        <li class="normal-line"><span class="font500">Celular:</span> <a
+                                href="https://api.whatsapp.com/send/?phone=5511979995007&text=Olá+Pedro,+me+interessei+pelo+seu+currículo+podemos+conversar?&type=phone_number&app_absent=0"
+                                target="_blank">(11) 97999-5007</a></li>
+                        <li class="normal-line">
+                            <span class="font500">E-mail:</span>
+                            <a
+                                href="mailto:pedro.acds.1@gmail.com">
+                                pedro.acds.1@gmail.com
+                            </a>
+                        </li>
+                        <li class="normal-line"><span class="font500">LinkedIn:</span> <a href="https://www.linkedin.com/in/pedroaugusto-dev/" target="_blank">linkedin.com/in/pedroaugusto-dev/</a>
+                        </li>
+                        <li class="normal-line"><span class="font500">GitHub:</span> <a href="https://github.com/DevPedroAugusto" target="_blank">github.com/DevPedroAugusto</a></li>
+                    </ul>
+                </section>
+                <section id="personal-habilits" class="personal-topcs">
+                    <h2 class="profile-subtitles">Habillidades</h2>
+                    <ul id="habilits-info" class="normal-list">
+                        <li class="normal-line">Autodidata</li>
+                        <li class="normal-line">Pró-ativo</li>
+                        <li class="normal-line">Trabalho em Equipe</li>
+                        <li class="normal-line">Desenvolvimento de projetos</li>
+                        <li class="normal-line">Inglês (Básico)</li>
+                    </ul>
+                </section>
+                <section id="personal-formations" class="personal-topcs">
+                    <h2 class="profile-subtitles">Formação acadêmica</h2>
+                    <ul id="first-formation" class="normal-list">
+                        <li class="simple-line"><span class="font500">Centro universitário Eniac</span></li>
+                        <li class="simple-line">Graduação: Sistemas da informação </li>
+                        <li class="simple-line">Inicio: 03/2022 </li>
+                        <li class="simple-line">Conclusão: 2026</li>
                     </ul>
                 </section>
             </div>
-            <p class="page-count">Pedro Augusto <span class="page-number">pag.1</span></p>
+            <p class="page-count">Pedro Augusto <span class="bold">pag.1</span></p>
         </div>
         <hr>
         <div class="profile-page">
-            <header id="profile-header">
-                <figure>
-                    <img src="/assets/img/20231116.jpg" alt="Foto Pedro Augusto" srcset="">
-                    <figcaption>
-                        <h1>Pedro Augusto Chaves da Silva</h1>
-                        <p>Técnico em suporte ao cliente e ao usuário, iniciante na área de
-                            desenvolvimento de sistemas.
-                        </p>
-                    </figcaption>
-                </figure>
-            </header>
             <div id="profile-body">
-                <section id="personal-informations">
-                    <h2 class="profile-subtitles">Informações pessoais</h2>
-                    <ul id="personal-info">
-                        <li>Data de nascimento: 29/06/2003
+                <section id="personal-experiences" class="personal-topcs">
+                    <h2 class="profile-subtitles">Experiências profissionais</h2>
+                    <ul id="personal-experience-list" class="normal-list">
+                        <li id="unisan-intership" class="simple-line experience">
+                            <h3>Universidade Unisan</h3>
+                            <p class="function"><span class="font500">Cargo:</span> Estágio em TI</p>
+                            <p class="period"><span class="font500">Período:</span> 11/2023 – </p>
+                            <p class="main-functions"><span class="font500">Principal atividades:</span> Atendimento
+                                presencial ao cliente/usuário - Manutenção e instalação de computadores | Impressoras. -
+                                Montagem de infraestrutura de rede. - Gerenciamento de acessos de sistemas - Controle de
+                                estoque</p>
+                            <span class="line-experience"></span>
                         </li>
-                        <li>Nacionalidade: Brasileira
+                        <li id="vieiracred-hired" class="simple-line experience">
+                            <h3>Vieiracred</h3>
+                            <p class="function"><span class="font500">Cargo:</span> Supervisor de equipe</p>
+                            <p class="period"><span class="font500">Período:</span> 06/2021 – 06/2023</p>
+                            <p class="main-functions"><span class="font500">Principal atividades:</span> Gestão e
+                                administração de equipe de suporte helpdesk. - Atendimento remoto e presencial ao
+                                cliente/usuário - Implementação e configurações de sistemas. - Gerenciamento de acessos
+                                e permissões em sistema. - Desenvolvimento de relatórios.</p>
+                            <span class="line-experience"></span>
                         </li>
-                        <li>Estado civil: Solteiro</li>
+                        <li id="vieiracred-internship" class="simple-line experience">
+                            <h3>VieiraCred</h3>
+                            <p class="function"><span class="font500">Cargo:</span> Estágio em TI</p>
+                            <p class="period"><span class="font500">Período:</span> 08/2020 – 06/2021</p>
+                            <p class="main-functions"><span class="font500">Principal atividades:</span> Atendimento
+                                remoto e presencial ao cliente/usuário - Manutenção e instalação de computadores |
+                                Impressoras. - Montagem de infraestrutura de rede. - Gerenciamento de acessos de
+                                sistemas - Controle de estoque</p>
+                        </li>
                     </ul>
-                    <ul id="personal-location">
-                        <li>CEP: 07051090</li>
-                        <li>Jardim Tranquilidade - Guarulhos - SP</li>
+                </section>
+                <section id="personal-courses" class="personal-topcs">
+                    <h2 class="profile-subtitles">Cursos e Aprimoramentos</h2>
+                    <ul class="normal-list">
+                        <li class="simple-line">
+                            <a href="https://www.udemy.com/course/formacao-front-end-html-css-javascript-react-e/learn/lecture/38412600?start=0#overview"
+                                target="_blank">
+                                <h3>Formação Front-End</h3>
+                            </a>
+                            <p><span class="font500">Udemy</span></p>
+                            <p><span class="font500">Carga horária:</span> 50 horas</p>
+                            <p><span class="font500">Conteúdo:</span> HTML, CSS, JavaScript, React </p>
+                        </li>
+                        <li class="simple-line">
+                            <h3><a href="https://web.dio.me/track/santander-bootcamp-2023-fullstack-java-angular"
+                                    target="_blank">Formação Full-Stack + Angular</a></h3>
+                            <p><span class="font500">DIO</span></p>
+                            <p><span class="font500">Carga horária:</span> 50 horas</p>
+                            <p><span class="font500">Conteúdo:</span> HTML, CSS, JavaScript, Angular, Java, SQL e NoSQL.
+                            </p>
+                        </li>
                     </ul>
                 </section>
             </div>
-            <p class="page-count">Pedro Augusto <span class="page-number">pag.1</span></p>
+            <p class="page-count">Pedro Augusto <span class="bold">pag.2</span></p>
         </div>
-        <hr>
     </div>
 </body>
 
