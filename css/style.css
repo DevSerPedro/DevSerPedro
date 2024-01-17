@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @media print {
-    #simple-profile-container hr {
+    #simple-profile-container hr{
         display: none;
     }
 
@@ -12,15 +12,10 @@
     }
 }
 
-#simple-profile-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* column-gap: 30px; */
-}
 
 #simple-profile-container hr {
-    /* border: none; */
+    border: none;
+    margin: 10px 0;
 }
 
 .font500 {
@@ -43,8 +38,6 @@
     padding: 80px;
 
     margin: 0 auto;
-
-    margin-top: 50px;
 
     width: 210mm;
     height: 297mm;
@@ -242,7 +235,7 @@ ul#first-formation:hover {
     margin-bottom: 5px;
 }
 
-.line-experience {
+span.line-experience {
     display: flex;
     width: 80px;
     height: 2px;
@@ -252,8 +245,16 @@ ul#first-formation:hover {
     background-color: #365B6D;
 }
 
-.experience p:nth-child(4){
+.experience * {
+    transition: margin-left 0.3s ease;
+}
+
+.experience p:nth-child(4) {
     margin-top: 10px;
+}
+
+.experience:hover *:not(span) {
+    margin-left: 10px;
 }
 
 #personal-experience-list li,
@@ -262,25 +263,25 @@ ul#first-formation:hover {
 }
 
 #personal-experience-list li:last-child,
-#personal-courses li:last-child{
+#personal-courses li:last-child {
     margin-bottom: 0px;
 }
 
-#personal-courses h3{
+#personal-courses h3 {
     text-decoration: underline;
 }
 
 /* ----------------------------------------- Terceira pagina ------------------------------------------------ */
 
-#personal-knowledge > h2{
+#personal-knowledge>h2 {
     text-align: center;
 }
 
-#personal-knowledge #personal-knowledge-list{
+#personal-knowledge #personal-knowledge-list {
     display: flex;
 }
 
-#personal-knowledge ul.knowledge-list{
+#personal-knowledge ul.knowledge-list {
     padding: 20px 40px;
     margin: 0 10px;
     margin-bottom: 20px;
@@ -290,11 +291,11 @@ ul#first-formation:hover {
     background-color: #f6f6f6;
 }
 
-#personal-knowledge-list .normal-line:hover{
+#personal-knowledge-list .normal-line:hover {
     list-style: disc;
 }
 
-ul.knowledge-list h3{
+ul.knowledge-list h3 {
     text-align: center;
     text-transform: uppercase;
 }
