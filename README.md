@@ -27,13 +27,13 @@ Olá!, Sinta-se a vontade para visualizar e todos os projetos desolvidos por mim
     * Francês (Gostaria de aprender)
     * Libras (Gostaria de aprender)
 
-## ⭐Projetos Destacados 
+## ⭐ Projetos Destacados 
 
 Aqui estão alguns dos meus projetos mais recentes e interessantes:
 
 * [Pokedex](https://github.com/DevPedroAugusto/Pokedex) Criado para amantes da franquia pokemon. Desenvolvolvido em HTML,CSS,JS puros e também nas versões em Angular e React com consulta a PokeApi.  
 
-## 🗄Repositórios
+## 🗄 Repositórios
 Dê uma olhada nos meus repositórios para encontrar uma variedade de projetos e cada linguagem que foi desenvolvido.
 
 * Projetos
@@ -50,11 +50,11 @@ Dê uma olhada nos meus repositórios para encontrar uma variedade de projetos e
 |------------|-------|------------|:------:|
 | [Udemy](https://github.com/DevPedroAugusto/Udemy) | Formação Front End | HTML, CSS, JavaScript, React | Em andamento |
 
-## 🆕Atualizações em Andamento 
+## 🆕 Atualizações em Andamento 
 
 Acompanhe para ver mais atualizações conforme estou desenvolvendo, aprimorando, e refazendo meus projetos com outras bibliotecas. Fique de olho nos README.md para mais informações sobre atualizações. 
 
-## 📲Contato 
+## 📲 Contato 
 
 - LinkedIn: [Pedro Augusto](https://www.linkedin.com/in/pedroaugusto-dev/)
 - Email: [devserpedro@gmail.com](https://mailto:pedro@gmail.com/)
