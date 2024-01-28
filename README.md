@@ -50,7 +50,7 @@ Dê uma olhada nos meus repositórios para encontrar uma variedade de projetos e
 |------------|-------|------------|:------:|
 | [Udemy](https://github.com/DevPedroAugusto/Udemy) | Formação Front End | HTML, CSS, JavaScript, React | Em andamento |
 
-## 🆕 Atualizações em Andamento 
+## 🆕 Atualizações
 
 Acompanhe para ver mais atualizações conforme estou desenvolvendo, aprimorando, e refazendo meus projetos com outras bibliotecas. Fique de olho nos README.md para mais informações sobre atualizações. 
 
