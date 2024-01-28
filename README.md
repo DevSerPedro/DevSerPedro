@@ -60,7 +60,7 @@ ___
 
 > Aqui estão alguns dos meus projetos mais recentes e interessantes:
 
-* [Pokedex](https://github.com/DevPedroAugusto/Pokedex) Criado para amantes da franquia pokemon. Desenvolvolvido em HTML,CSS,JS puros e também nas versões em Angular e React com consulta a PokeApi.  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DevPedroAugusto&repo=Pokedex&theme=react&hide_border=true)](https://github.com/DevPedroAugusto/Pokedex)
 
 ___
 
