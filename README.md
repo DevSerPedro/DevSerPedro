@@ -114,7 +114,7 @@ ___
 
 > Sinta-se à vontade para explorar meus projetos e entrar em contato se tiver alguma pergunta, sugestão ou queira me contratar. Obrigado por visitar! 🚀
 
-<img src="assets/svg/linkedin.svg" width=20/> 
+<p style="display: flex;font-size: larger;"><img style="margin-right: 10px;" src="assets/svg/linkedin.svg" width=20/> LinkedIn </p>
 
 <img src="assets/svg/square-whatsapp.svg" width=20>
 
@@ -122,14 +122,14 @@ ___
 
 <img src="assets/svg/square-github.svg" width=20>
 
-[<img src="assets/svg/linkedin.svg" width=20/>](https://www.linkedin.com/in/pedroaugusto-dev/) teste
+[<img src="assets/svg/linkedin.svg" width=20/>](https://www.linkedin.com/in/pedroaugusto-dev/) LinkedIn
 
 
 [<img src="assets/svg/square-whatsapp.svg" width=20>](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)
 
-[<img src="assets/svg/gmail.svg" width=20>](https://www.linkedin.com/in/pedroaugusto-dev/)
+[<img src="assets/svg/gmail.svg" width=20>](https://mailto:pedro@gmail.com/)
 
-[<img src="assets/svg/square-github.svg" width=20>](https://www.linkedin.com/in/pedroaugusto-dev/)
+[<img src="assets/svg/square-github.svg" width=20>](https://github.com/DevPedroAugusto)
 
 
 |[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()| pedroaugusto-dev |
@@ -138,3 +138,5 @@ ___
 |[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mailto:pedro@gmail.com/)|devserpedro@gmail.com|
 
 ___
+
+
