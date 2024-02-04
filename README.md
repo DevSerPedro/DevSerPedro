@@ -4,7 +4,8 @@
 
 ___
 
-## 👤 Sobre mim
+## <img src="assets/svg/user-solid.svg" width="16" style="filter: invert(60%) sepia(100%) saturate(7500%) hue-rotate(345deg) brightness(100%) contrast(100%);"> Sobre mim
+
 
 - Desenvolvedor Front-End
 - Foco em desenvolvimento WEB
