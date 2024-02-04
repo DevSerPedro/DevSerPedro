@@ -110,11 +110,29 @@ Acompanhe para ver mais atualizações conforme estou desenvolvendo, aprimorando
 
 ___
 
-## 📲 Contato <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80" padding ="0">
+## 📲 Contato <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="60" padding ="0">
 
 > Sinta-se à vontade para explorar meus projetos e entrar em contato se tiver alguma pergunta, sugestão ou queira me contratar. Obrigado por visitar! 🚀
 
-|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedroaugusto-dev/)| pedroaugusto-dev |
+<img src="assets/svg/linkedin.svg" width=20/> 
+
+<img src="assets/svg/square-whatsapp.svg" width=20>
+
+<img src="assets/svg/gmail.svg" width=20>
+
+<img src="assets/svg/square-github.svg" width=20>
+
+[<img src="assets/svg/linkedin.svg" width=20/>](https://www.linkedin.com/in/pedroaugusto-dev/) teste
+
+
+[<img src="assets/svg/square-whatsapp.svg" width=20>](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)
+
+[<img src="assets/svg/gmail.svg" width=20>](https://www.linkedin.com/in/pedroaugusto-dev/)
+
+[<img src="assets/svg/square-github.svg" width=20>](https://www.linkedin.com/in/pedroaugusto-dev/)
+
+
+|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()| pedroaugusto-dev |
 |:--------------------------------------------------------------------------------------------------------:|:----:|
 |[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)| +55 (11) 979995007| 
 |[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mailto:pedro@gmail.com/)|devserpedro@gmail.com|
