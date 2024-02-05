@@ -40,10 +40,10 @@ ___
 
 **Ferramentas**
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white)
-![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white)
 
 </details>
 
@@ -72,7 +72,7 @@ ___
   
 | Repositório | Veja Renderizado | HTML,CSS,JS | Angular | React |
 |-------------|------------------------------|:-----------:|:-------:|:-----:|
-| [Pokedex](https://github.com/DevPedroAugusto/Pokedex) | [Link indisponível]() | ✔ | Em desenvolvimento  | Em desenvolvimento |
+| [Pokedex](https://github.com/DevPedroAugusto/Pokedex) | [Link indisponível](https://github.com/DevPedroAugusto/Pokedex) | ✔ | Em desenvolvimento  | Em desenvolvimento |
 | [Calculadora](https://github.com/DevPedroAugusto/Calculadora)| [Link indisponível]() | Em desenvolvimento | Em desenvolvimento  | Em desenvolvimento |
 | [GameStore](https://github.com/DevPedroAugusto/GameStore) | [Link indisponível]() | Em desenvolvimento | Em desenvolvimento  | Em desenvolvimento |
 
@@ -114,29 +114,11 @@ ___
 
 > Sinta-se à vontade para explorar meus projetos e entrar em contato se tiver alguma pergunta, sugestão ou queira me contratar. Obrigado por visitar! 🚀
 
-<p style="display: flex;font-size: larger;"><img style="margin-right: 10px;" src="assets/svg/linkedin.svg" width=20/> LinkedIn </p>
-
-<img src="assets/svg/square-whatsapp.svg" width=20>
-
-<img src="assets/svg/gmail.svg" width=20>
-
-<img src="assets/svg/square-github.svg" width=20>
-
-[<img src="assets/svg/linkedin.svg" width=20/>](https://www.linkedin.com/in/pedroaugusto-dev/) LinkedIn
-
-
-[<img src="assets/svg/square-whatsapp.svg" width=20>](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)
-
-[<img src="assets/svg/gmail.svg" width=20>](https://mailto:pedro@gmail.com/)
-
-[<img src="assets/svg/square-github.svg" width=20>](https://github.com/DevPedroAugusto)
-
-
-|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()| pedroaugusto-dev |
-|:--------------------------------------------------------------------------------------------------------:|:----:|
-|[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)| +55 (11) 979995007| 
-|[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mailto:pedro@gmail.com/)|devserpedro@gmail.com|
+[![LinkedIn](assets/svg/card-linkedin.svg)](https://www.linkedin.com/in/DevSerPedro/)
+[![LinkedIn](assets/svg/card-whatsapp.svg)](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)
+[![LinkedIn](assets/svg/card-github.svg)](https://github.com/DevPedroAugusto)
 
 ___
+
 
 
