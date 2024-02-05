@@ -1,6 +1,6 @@
 # Pedro Augusto - Desenvolvedor Front-End <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
-> Olá!, Sinta-se a vontade para visualizar e todos os projetos desolvidos por mim com foco melhor experiência na utilização de sites e ferramentas, não se esqueça de favoritar e de me acompanhar nas redes sociais :grin:
+> Olá!, Sinta-se a vontade para visualizar e todos os projetos desolvidos por mim com foco melhor experiência no desenvolvimento de sites e ferramentas, não se esqueça de favoritar e de me acompanhar nas redes sociais :grin:
 
 ___
 
