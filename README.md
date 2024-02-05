@@ -1,6 +1,6 @@
 # Pedro Augusto - Desenvolvedor Front-End <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
-> Olá!, Sinta-se a vontade para visualizar e todos os projetos desolvidos por mim com foco melhor experiência no desenvolvimento de sites e ferramentas, não se esqueça de favoritar e de me acompanhar nas redes sociais :grin:
+> Olá!, Sinta-se a vontade para visualizar e todos os projetos desolvidos por mim com foco melhor experiência no desenvolvimento de sites e ferramentas, não se esqueça de favoritar e de me acompanhar nas redes sociais
 
 ___
 
@@ -80,9 +80,9 @@ ___
 
 <summary><b>Cursos</b></summary>
   
-| Plataforma | Curso | Linguagens | Status | 
-|------------|-------|------------|:------:|
-|[Udemy](https://github.com/DevPedroAugusto/Udemy) | Formação Front End | HTML, CSS, JavaScript, React | Em andamento |
+| Plataforma | Curso | Linguagens | Instrutor | Status | 
+|------------|-------|------------|:------:|:------:|
+|[Udemy](https://github.com/DevPedroAugusto/Udemy) | Formação Front End | HTML, CSS, JavaScript, React | [@matheusbattisti](https://github.com/matheusbattisti)| Em andamento |
 
 </details>
 
@@ -112,13 +112,16 @@ ___
 
 ## 📲 Contato <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="60" padding ="0">
 
-> Sinta-se à vontade para explorar meus projetos e entrar em contato se tiver alguma pergunta, sugestão ou queira me contratar. Obrigado por visitar! 🚀
+> Sinta-se à vontade entrar em contato se tiver alguma pergunta, sugestão ou queira me contratar. 
 
 [![LinkedIn](assets/svg/card-linkedin.svg)](https://www.linkedin.com/in/DevSerPedro/)
 [![LinkedIn](assets/svg/card-whatsapp.svg)](https://api.whatsapp.com/send/?phone=5511979995007&text=Ol%C3%A1+Pedro,+me+interessei+pelo+seu+curr%C3%ADculo+podemos+conversar?&type=phone_number&app_absent=0)
 [![LinkedIn](assets/svg/card-github.svg)](https://github.com/DevPedroAugusto)
 
+Obrigado por visitar! 🚀
 ___
+
+_Pedro Augusto - Desenvolvedor Front-End © 2024_
 
 
 
