@@ -2,33 +2,37 @@
     "Cabecalho": {
         "img": "https://avatars.githubusercontent.com/u/137115718?s=400&u=0c76f1b18e9f67101ee290d82a1178458c81c3bf&v=4",
         "Meu Nome": "Pedro Augusto Chaves da Silva",
-        "Sobre mim": "Programador Front-End | Angular | React"
+        "Sobre mim": "Programador Front-End com foco em Desenvolvimento web com conhecimentos em Angular e React"
     },
     "Informações pessoais": {
         "Data de nascimento": "29/06/2003",
         "Nacionalidade": "Brasileira",
         "Estado civil": "Solteiro",
-        "CEP": "00000000",
+        "CEP": "0705190",
         "Endereço": "Jardim Tranquilidade - Guarulhos - SP"
     },
-    "Contato": {
-        "Celular": {
-            "texto": "(11) 979995007",
+    "Contato": [
+        {
+            "Contato Via": "Celular",
+            "texto": "(11) 97999-5007",
             "link": "https://api.whatsapp.com/send/?phone=5511979995007&text=Olá+Pedro,+me+interessei+pelo+seu+currículo+podemos+conversar?&type=phone_number&app_absent=0"
         },
-        "Email": {
+        {
+            "Contato Via": "E-mail",
             "texto": "pedro.acds.1@gmail.com",
             "link": "mailto:pedro.acds.1@gmail.com"
         },
-        "Linkedin": {
+        {
+            "Contato Via": "LinkedIn",
             "texto": "linkedin.com/in/DevSerPedro/",
             "link": "https://www.linkedin.com/in/DevSerPedro/"
         },
-        "Github": {
+        {
+            "Contato Via": "GitHub",
             "texto": "github.com/DevPedroAugusto",
             "link": "https://github.com/DevPedroAugusto"
         }
-    },
+    ],
     "Habillidades": [
         "Autodidata",
         "Pró-ativo",
