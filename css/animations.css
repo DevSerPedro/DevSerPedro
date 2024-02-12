@@ -1,0 +1,26 @@
+li.normal-line:hover {
+    margin-left: 6px;
+}
+
+
+#image-link #photo-help:hover {
+    opacity: 100%;
+}
+
+
+#habilits-info>li:hover {
+    list-style: inside;
+}
+
+ul#first-formation:hover {
+    border-left: 3px solid var(--list-color);
+    padding-left: 7px;
+}
+
+.experience:hover *:not(span) {
+    margin-left: 10px;
+}
+
+#personal-knowledge-list .normal-line:hover {
+    list-style: disc;
+}

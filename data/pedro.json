@@ -1,0 +1,356 @@
+{
+    "Informações pessoais": {
+        "Data de nascimento": "29/06/2003",
+        "Nacionalidade": "Brasileira",
+        "Estado civil": "Solteiro",
+        "CEP": "00000000",
+        "Endereço": "Jardim Tranquilidade - Guarulhos - SP"
+    },
+    "Contato": {
+        "Celular": {
+            "texto": "(11) 979995007",
+            "link": "https://api.whatsapp.com/send/?phone=5511979995007&text=Olá+Pedro,+me+interessei+pelo+seu+currículo+podemos+conversar?&type=phone_number&app_absent=0"
+        },
+        "Email": {
+            "texto": "pedro.acds.1@gmail.com",
+            "link": "mailto:pedro.acds.1@gmail.com"
+        },
+        "Linkedin": {
+            "texto": "linkedin.com/in/DevSerPedro/",
+            "link": "https://www.linkedin.com/in/DevSerPedro/"
+        },
+        "Github": {
+            "texto": "github.com/DevPedroAugusto",
+            "link": "https://github.com/DevPedroAugusto"
+        }
+    },
+    "Habillidades": [
+        "Autodidata",
+        "Pró-ativo",
+        "Trabalho em Equipe",
+        "Desenvolvimento de projetos",
+        "Inglês (Básico)"
+    ],
+    "Formacao": [
+        {
+            "Universidade": "Centro universitário Eniac",
+            "Curso": "Graduação: Sistemas da informação",
+            "Inicio": "03/2022",
+            "Conclusão": "2026"
+        }
+    ],
+    "Experiencias": [
+        {
+            "Empresa": "Universidade Unisan",
+            "Cargo": "Estágio em TI",
+            "Periodo": "11/2023",
+            "Atividades": [
+                "Atendimento presencial ao cliente/usuário",
+                "Manutenção e instalação de computadores | Impressoras.",
+                "Montagem de infraestrutura de rede.",
+                "Gerenciamento de acessos de sistemas",
+                "Controle de estoque"
+            ]
+        },
+        {
+            "Empresa": "VieiraCred",
+            "Cargo": "Supervisor de equipe",
+            "Periodo": "06/2021 – 06/2023",
+            "Atividades": [
+                "Gestão e administração de equipe de suporte helpdesk.",
+                "Atendimento remoto e presencial ao cliente/usuário ",
+                "Implementação e configurações de sistemas.",
+                "Gerenciamento de acessos e permissões em sistema.",
+                "Desenvolvimento de relatórios."
+            ]
+        },
+        {
+            "Empresa": "VieiraCred",
+            "Cargo": "Estágio em TI",
+            "Periodo": "08/2020 – 06/2021",
+            "Atividades": [
+                "Atendimento remoto e presencial ao cliente/usuário",
+                "Manutenção e instalação de computadores | Impressoras.",
+                "Montagem de infraestrutura de rede.",
+                "Gerenciamento de acessos de sistemas",
+                "Controle de estoque"
+            ]
+        }
+    ],
+    "Cursos": [
+        {
+            "Curso": "Udemy",
+            "Link": "https://www.udemy.com/course/formacao-front-end-html-css-javascript-react-e/learn/lecture/38412600?start=0#overview",
+            "Plataforma": "Dio",
+            "Tempo": "50 horas",
+            "Conteudo": "HTML, CSS, JavaScript, React"
+        },
+        {
+            "Curso": "Formação Full-Stack + Angular",
+            "Link": "https://web.dio.me/track/santander-bootcamp-2023-fullstack-java-angular",
+            "Plataforma": "Dio",
+            "Tempo": "50 horas",
+            "Conteudo": "HTML, CSS, JavaScript, React"
+        }
+    ],
+    "Conhecimentos": {
+        "Ferramentas": [
+            {
+                "Office": "Excel, PowerPoint, Word, Outlook"
+            },
+            {
+                "Google": "Planilhas, Documentos, Apresentações, Formulário"
+            },
+            {
+                "Adobe": "Photoshop, Premiere, InDesign, Lightroom"
+            },
+            {
+                "Canva": ""
+            },
+            {
+                "PowerBi": ""
+            },
+            {
+                "Figma": ""
+            }
+        ],
+        "Programacao": [
+            "HTML 5",
+            "CSS 3",
+            "Javascript",
+            "Angular",
+            "React",
+            "GitHub",
+            "Git",
+            "VBA",
+            "Phyton"
+        ]
+    },
+    "Certificados": {
+        "Fullstack Dio": [
+            {
+                "name": "Explorando Padrões de Projetos na Prática com Java",
+                "code": "0E18666D"
+            },
+            {
+                "name": "Adicionando Segurança a uma API REST com Spring Security",
+                "code": "B2E5E66E"
+            },
+            {
+                "name": "Criando uma API REST Documentada com Spring Web e Swagger",
+                "code": "A7457A7B"
+            },
+            {
+                "name": "Imersão no Spring Framework com Spring Boot",
+                "code": "DF568F83"
+            },
+            {
+                "name": "Contextualizando o Desenvolvimento Web com Spring Boot 3",
+                "code": "1FD3B6A5"
+            },
+            {
+                "name": "Testes Unitários Com JUnit",
+                "code": "2FFC043F"
+            },
+            {
+                "name": "Avalie este Bootcamp",
+                "code": "7C526AFD"
+            },
+            {
+                "name": "Gerenciamento de Dependências e Build em Java com Maven",
+                "code": "53C5C57B"
+            },
+            {
+                "name": "Dominando a Linguagem de Programação Java",
+                "code": "1F6ACF01"
+            },
+            {
+                "name": "Orientação a Objetos e UML: Diagramação de Classes do iPhone",
+                "code": "B683B04F"
+            },
+            {
+                "name": "Ganhando Produtividade com Stream API",
+                "code": "A6C44DE1"
+            },
+            {
+                "name": "Conhecendo Collections Java",
+                "code": "8CB5B50B"
+            },
+            {
+                "name": "Pilares da Programação Orientada a Objetos em Java",
+                "code": "4089EFA8"
+            },
+            {
+                "name": "Fundamentos da Programação Orientada a Objetos com Java",
+                "code": "87A3EC33"
+            },
+            {
+                "name": "Criando Um Pequeno Sistema Para Validação de Processo Seletivo",
+                "code": "DC9287BA"
+            },
+            {
+                "name": "Java e Tratamento de Exceções",
+                "code": "92A2D78E"
+            },
+            {
+                "name": "Estruturas de Repetição em Java",
+                "code": "D5F0015C"
+            },
+            {
+                "name": "Introdução e Estruturas Condicionais com Java",
+                "code": "5B215948"
+            },
+            {
+                "name": "Aprendendo a Sintaxe Java",
+                "code": "4DEEE636"
+            },
+            {
+                "name": "Ambiente de Desenvolvimento Java",
+                "code": "A548E264"
+            },
+            {
+                "name": "Introdução à Plataforma Java",
+                "code": "F1E6946E"
+            },
+            {
+                "name": "Trabalhando com Rotas e Serviços no Angular",
+                "code": "923B3CB7"
+            },
+            {
+                "name": "Recriando a Interface da PlayStation Store com Angular",
+                "code": "63E731D0"
+            },
+            {
+                "name": "Bancos de Dados SQL e NoSQL Para Devs",
+                "code": "636E5639"
+            },
+            {
+                "name": "Introdução a Banco de Dados NoSQL",
+                "code": "700EA352"
+            },
+            {
+                "name": "Introdução a Banco de Dados Relacionais (SQL)",
+                "code": "18B028BE"
+            },
+            {
+                "name": "Praticando Sua Abstração no Domínio Bancário",
+                "code": "4BA53D5E"
+            },
+            {
+                "name": "Trabalhando com Services no Angular",
+                "code": "7877BF75"
+            },
+            {
+                "name": "Trabalhando com Rotas no Angular",
+                "code": "0ED8BF55"
+            },
+            {
+                "name": "Ganhando Produtividade com Angular",
+                "code": "1242B8FD"
+            },
+            {
+                "name": "Criando um Blog com Angular",
+                "code": "7764F461"
+            },
+            {
+                "name": "Módulos Angular",
+                "code": "B600F655"
+            },
+            {
+                "name": "Single Page Application com Angular",
+                "code": "75F2024B"
+            },
+            {
+                "name": "LifeCycle Hooks Angular",
+                "code": "E6D176C6"
+            },
+            {
+                "name": "Trabalhando com Componentes Angular",
+                "code": "24DDE435"
+            },
+            {
+                "name": "Introdução ao Ecossistema Angular",
+                "code": "112F2CB8"
+            },
+            {
+                "name": "TypeScript para Angular",
+                "code": "BAEB8389"
+            },
+            {
+                "name": "Trabalhando com Web Components no Front-end",
+                "code": "7DC6AE1F"
+            },
+            {
+                "name": "Resolvendo Seus Primeiros Desafios de Código",
+                "code": "14776991"
+            },
+            {
+                "name": "Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional",
+                "code": "E461BA36"
+            },
+            {
+                "name": "Construindo uma Pokédex com JavaScript",
+                "code": "83D2CF9A"
+            },
+            {
+                "name": "Primeiras Páginas Interativas com JavaScript",
+                "code": "6C4203AB"
+            },
+            {
+                "name": "Dominando o Protocolo HTTP e Integrando com a PokeAPI",
+                "code": "883DD750"
+            },
+            {
+                "name": "Criando um Projeto com HTML/CSS para Listagem de Pokémon",
+                "code": "3D02363D"
+            },
+            {
+                "name": "Introdução ao Desenvolvimento Web com JavaScript",
+                "code": "8FAD64FD"
+            },
+            {
+                "name": "Sintaxe Básica em JavaScript",
+                "code": "97B76C20"
+            },
+            {
+                "name": "Introdução a Criação de Websites com HTML5 e CSS3",
+                "code": "0F2C3A4A"
+            },
+            {
+                "name": "Princípios de Desenvolvimento de Software",
+                "code": "4E5B2CE2"
+            },
+            {
+                "name": "Contribuindo em um Projeto Open Source no GitHub",
+                "code": "FA85DEA8"
+            },
+            {
+                "name": "Organizando seus Estudos com os Roadmaps DIO e o Notion",
+                "code": "68E75666"
+            },
+            {
+                "name": "Desafios de Projetos: Crie Um Portfólio Vencedor",
+                "code": "929668CA"
+            },
+            {
+                "name": "Versionamento de Código com Git e GitHub",
+                "code": "5915E9E2"
+            },
+            {
+                "name": "Prepare-se Para a Jornada (Onboarding)",
+                "code": "71B882FC"
+            },
+            {
+                "name": "Aula Inaugural - Santander Bootcamps 2023",
+                "code": "3203A785"
+            },
+            {
+                "name": "Bootcamps DIO: Educação Gratuita e Empregabilidade Juntas!",
+                "code": "5D6E81D0"
+            }
+        ],
+        "FrontEnd Udemy":[
+
+        ]
+    }
+}
