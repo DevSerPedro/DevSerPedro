@@ -51,6 +51,19 @@ function modoNormal() {
     }
 }
 
+nomearPaginas()
+
+function nomearPaginas() {
+    var profilePages = document.querySelectorAll('.profile-page');
+    for (var i = 0; i < profilePages.length; i++) {
+        var pageNumber = i + 1;
+        var pageCount = document.createElement('p');
+        pageCount.className = 'page-count';
+        pageCount.innerHTML = 'Pedro Augusto <span class="bold">pag.' + pageNumber + '</span>';
+        profilePages[i].appendChild(pageCount);
+    }
+}
+
 
 // eventos
 
@@ -115,10 +128,10 @@ imageLink.addEventListener("mouseleave", () => {
     step.innerText = stepEmoje
 })
 
-firstFormation.addEventListener("mouseenter", () => {
-    step.innerText = "👨🏻‍🎓"
-})
+// firstFormation.addEventListener("mouseenter", () => {
+//     step.innerText = "👨🏻‍🎓"
+// })
 
-firstFormation.addEventListener("mouseleave", () => {
-    step.innerText = stepEmoje
-})
+// firstFormation.addEventListener("mouseleave", () => {
+//     step.innerText = stepEmoje
+// })

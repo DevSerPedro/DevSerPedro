@@ -18,8 +18,9 @@
 }
 
 @media screen and (max-width: 795px) {
+
     hr:first-child,
-    hr:last-child{
+    hr:last-child {
         display: none;
     }
 }
@@ -264,8 +265,13 @@ ul#habilits-info {
 
 /* personal-formations */
 
-ul#first-formation {
+ul.formation {
+    margin-bottom: 10px;
     transition: border-left 0.5s ease-out padding-left 0.5s ease-out;
+}
+
+ul.formation:last-child {
+    margin-bottom: 0px;
 }
 
 

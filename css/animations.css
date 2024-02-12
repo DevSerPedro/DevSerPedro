@@ -12,7 +12,7 @@ li.normal-line:hover {
     list-style: inside;
 }
 
-ul#first-formation:hover {
+#personal-formations ul:hover {
     border-left: 3px solid var(--list-color);
     padding-left: 7px;
 }
