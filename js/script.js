@@ -1,8 +1,9 @@
+const url = "https://raw.githubusercontent.com/DevPedroAugusto/DevPedroAugusto/main/data/pedro.json"
 
-
-fetch("/data/pedro.json").then((response) => {
+fetch(url).then((response) => {
     response.json().then((pedro) => {
         console.log(pedro)
+        console.log(pedro.Habillidades);
 
         const habilitsInfo = document.getElementById("habilits-info")
 

@@ -1,4 +1,9 @@
 {
+    "Cabecalho": {
+        "img": "https://avatars.githubusercontent.com/u/137115718?s=400&u=0c76f1b18e9f67101ee290d82a1178458c81c3bf&v=4",
+        "Meu Nome": "Pedro Augusto Chaves da Silva",
+        "Sobre mim": "Programador Front-End | Angular | React"
+    },
     "Informações pessoais": {
         "Data de nascimento": "29/06/2003",
         "Nacionalidade": "Brasileira",
@@ -349,8 +354,6 @@
                 "code": "5D6E81D0"
             }
         ],
-        "FrontEnd Udemy":[
-
-        ]
+        "FrontEnd Udemy": []
     }
 }
