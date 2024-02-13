@@ -208,22 +208,6 @@ certificateImgContainer.addEventListener("wheel", (event) => {
     }
 })
 
-// var downCertificates = document.getElementById('down-certificates');
-// var upCertificates = document.getElementById('up-certificates');
-
-// const certificateList = document.getElementById("certificate-list")
-
-// downCertificates.addEventListener('mousedown', function () {
-//     certificateList.scrollBy({
-//         top: 100,
-//         behavior: 'smooth'
-//     });
-// });
-
-// upCertificates.addEventListener('click', function () {
-//     certificateList.scrollBy(0, -100);
-// });
-
 function handleLiClick(event) {
     if (event.target.tagName === 'LI') {
         const lis = document.querySelectorAll('li');
@@ -235,3 +219,18 @@ function handleLiClick(event) {
         certificateImg.src = `/assets/certificates/emsvg/${event.target.id}.svg `
     }
 }
+
+
+document.addEventListener('keydown', function (event) {
+    if (event.ctrlKey && (event.key === 'p' || event.key === 'P')) {
+        console.log('Você pressionou Ctrl + P');
+
+        const infoCertificates = document.getElementById("info-certificates")
+
+        infoCertificates.style.display = "block"
+
+        setTimeout(() => {
+            infoCertificates.style.display = "none"
+        }, 500)
+    }
+});

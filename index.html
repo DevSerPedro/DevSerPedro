@@ -120,24 +120,29 @@
                 </section>
                 <section id="personal-certificates">
                     <h2 class="profile-subtitles">Certificados</h2>
-                    <div id="certificates-body">
-                        <div id="certificates-options">
-                            <div id="certificate-linguagens-container">
-                                <select name="" id="certificate-linguagens">
-                                    <option value="Teste">Teste</option>
-                                </select>
+                    <div id="hide-certificate">
+                        <div id="certificates-body">
+                            <div id="certificates-options">
+                                <div id="certificate-linguagens-container">
+                                    <select name="" id="certificate-linguagens">
+                                        <option value="Teste">Teste</option>
+                                    </select>
+                                </div>
+                                <!-- <i id="up-certificates" class="fa-solid fa-chevron-up"></i> -->
+                                <ul id="certificate-list"  onclick="handleLiClick(event)">
+                                </ul>
+                                <!-- <i id="down-certificates" class="fa-solid fa-chevron-down"></i> -->
                             </div>
-                            <!-- <i id="up-certificates" class="fa-solid fa-chevron-up"></i> -->
-                            <ul id="certificate-list"  onclick="handleLiClick(event)">
-
-                            </ul>
-                            <!-- <i id="down-certificates" class="fa-solid fa-chevron-down"></i> -->
+                            <figure id="certificate-img-container">
+                                <img id="certificate-img" src="/assets/certificates/emsvg/0E18666D.svg" alt="">
+                            </figure>
                         </div>
-                        <figure id="certificate-img-container">
-                            <img id="certificate-img" src="/assets/certificates/emsvg/0E18666D.svg" alt="">
-                        </figure>
                     </div>
                 </section>
+
+                <a id="info-certificates" style="display: none; font-size: 10px;" href="https://devpedroaugusto.github.io/DevPedroAugusto/">
+                    Para ver os meus certificados acesse https://devpedroaugusto.github.io/DevPedroAugusto/
+                </a>
             </div>
         </div>
         <hr>
