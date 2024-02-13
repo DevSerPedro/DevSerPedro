@@ -141,5 +141,49 @@ fetch(url).then((response) => {
             li.appendChild(span)
             personalDevLanguage.appendChild(li)
         })
+
+        const certificateLinguagens = document.getElementById("certificate-linguagens")
+
+        let optionsHTML = '';
+
+        for (let linguagen in pedro.Certificados.Dio) {
+            // console.log(linguagen);
+            optionsHTML += `<option value="${linguagen}">${linguagen}</option>`;
+        }
+        certificateLinguagens.innerHTML = optionsHTML;
+
+
+
+        const selectedLinguage = document.getElementById("certificate-linguagens")
+
+        updateLingages()
+
+        function updateLingages() {
+            const certificateList = document.getElementById("certificate-list")
+
+            // console.log(selectedLinguage.value);
+
+            filterBy = selectedLinguage.value
+
+            certificateList.innerHTML = ""
+
+            pedro.Certificados.Dio[filterBy].forEach((cursos) => {
+                const li = document.createElement('li')
+                li.id = cursos.code
+                li.className = "items-lista"
+                // console.log(cursos.name)
+                li.innerHTML = cursos.name
+
+                certificateList.appendChild(li)
+            })
+        }
+
+
+        selectedLinguage.addEventListener("input", () => {
+            // console.log(selectedLinguage.value);
+
+            updateLingages()
+        })
+
     })
 })

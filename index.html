@@ -29,7 +29,7 @@
     </div>
     <div id="simple-profile-container">
         <hr>
-        <div class="profile-page">
+        <div class="profile-page" style="display: none;">
             <header id="profile-header">
                 <figure>
                     <a id="image-link"
@@ -86,7 +86,7 @@
             </div>
         </div>
         <hr>
-        <div class="profile-page">
+        <div class="profile-page" style="display: none;">
             <div id="profile-body">
                 <section id="personal-experiences" class="personal-topcs">
                     <h2 class="profile-subtitles">Experiências profissionais</h2>
@@ -118,18 +118,25 @@
                         </li>
                     </ul>
                 </section>
-                <section>
+                <section id="personal-certificates">
                     <h2 class="profile-subtitles">Certificados</h2>
-                    <details style="max-height: 500px; overflow: auto;">
-                        <summary style="position: static;"> Formação Full-Stack Java + Angular (55)</summary>
-                        <li>
-                            <a href="https://certificates.digitalinnovation.one/0E18666D" target="_blank">
-                                Explorando Padrões de Projetos na Prática com Java
-                                <img style="max-width: 100% ;"
-                                    src="https://hermes.digitalinnovation.one/certificates/cover/0E18666D.jpg" alt="">
-                            </a>
-                        </li>
-                    </details>
+                    <div id="certificates-body">
+                        <div id="certificates-options">
+                            <div id="certificate-linguagens-container">
+                                <select name="" id="certificate-linguagens">
+                                    <option value="Teste">Teste</option>
+                                </select>
+                            </div>
+                            <!-- <i id="up-certificates" class="fa-solid fa-chevron-up"></i> -->
+                            <ul id="certificate-list"  onclick="handleLiClick(event)">
+
+                            </ul>
+                            <!-- <i id="down-certificates" class="fa-solid fa-chevron-down"></i> -->
+                        </div>
+                        <figure id="certificate-img-container">
+                            <img id="certificate-img" src="/assets/certificates/emsvg/0E18666D.svg" alt="">
+                        </figure>
+                    </div>
                 </section>
             </div>
         </div>

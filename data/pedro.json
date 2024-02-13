@@ -105,7 +105,7 @@
     "Conhecimentos": {
         "Ferramentas": [
             {
-                "nome":"Office",
+                "nome": "Office",
                 "tools": "Excel, PowerPoint, Word, Outlook"
             },
             {
@@ -142,8 +142,8 @@
         ]
     },
     "Certificados": {
-        "Fullstack Dio": {
-            "Angular":[
+        "Dio": {
+            "Angular": [
                 {
                     "name": "Trabalhando com Web Components no Front-end",
                     "code": "7DC6AE1F"
@@ -197,7 +197,7 @@
                     "code": "BAEB8389"
                 }
             ],
-            "JavaScript":[
+            "JavaScript": [
                 {
                     "name": "Resolvendo Seus Primeiros Desafios de Código",
                     "code": "14776991"
@@ -223,7 +223,7 @@
                     "code": "97B76C20"
                 }
             ],
-            "Java":[
+            "Java": [
                 {
                     "name": "Praticando Sua Abstração no Domínio Bancário",
                     "code": "4BA53D5E"
@@ -285,7 +285,7 @@
                     "code": "92A2D78E"
                 }
             ],
-            "API":[
+            "API": [
                 {
                     "name": "Adicionando Segurança a uma API REST com Spring Security",
                     "code": "B2E5E66E"
@@ -303,7 +303,7 @@
                     "code": "883DD750"
                 }
             ],
-            "Spring Boot":[
+            "Spring Boot": [
                 {
                     "name": "Imersão no Spring Framework com Spring Boot",
                     "code": "DF568F83"
@@ -313,7 +313,7 @@
                     "code": "1FD3B6A5"
                 }
             ],
-            "Banco de dados":[
+            "Banco de dados": [
                 {
                     "name": "Bancos de Dados SQL e NoSQL Para Devs",
                     "code": "636E5639"
@@ -327,7 +327,7 @@
                     "code": "18B028BE"
                 }
             ],
-            "HTML e CSS":[
+            "HTML e CSS": [
                 {
                     "name": "Criando um Projeto com HTML/CSS para Listagem de Pokémon",
                     "code": "3D02363D"
@@ -337,7 +337,7 @@
                     "code": "0F2C3A4A"
                 }
             ],
-            "Git e GitHub":[
+            "Git e GitHub": [
                 {
                     "name": "Contribuindo em um Projeto Open Source no GitHub",
                     "code": "FA85DEA8"
@@ -347,7 +347,7 @@
                     "code": "5915E9E2"
                 }
             ],
-            "Sobre o curso":[
+            "Sobre o curso": [
                 {
                     "name": "Princípios de Desenvolvimento de Software",
                     "code": "4E5B2CE2"
@@ -377,13 +377,24 @@
                     "code": "3203A785"
                 }
             ],
-            "Outro":[
+            "Outro": [
                 {
                     "name": "Testes Unitários Com JUnit",
                     "code": "2FFC043F"
                 }
             ]
         },
-        "FrontEnd Udemy": []
+        "Udemy": {
+            "Cursos": [
+                {
+                    "name": "Nome do Curso",
+                    "code": "Código do Curso"
+                },
+                {
+                    "name": "Outro Curso",
+                    "code": "Outro Código"
+                }
+            ]
+        }
     }
 }

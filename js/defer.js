@@ -11,7 +11,14 @@ const firstFormation = document.querySelector("#first-formation")
 
 let stepEmoje = "🙂"
 
+const certificateImgContainer = document.getElementById('certificate-img-container');
+const certificateImg = document.getElementById("certificate-img")
+let zoom = true
+let zoomClick = false
+let zoomScale = 1.5
+
 // Funções
+
 
 function modoNoturno() {
     const colors = {
@@ -51,6 +58,8 @@ function modoNormal() {
     }
 }
 
+
+
 nomearPaginas()
 
 function nomearPaginas() {
@@ -64,6 +73,16 @@ function nomearPaginas() {
     }
 }
 
+function startZoom(event) {
+    if (zoom === true) {
+        const rect = certificateImgContainer.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+
+        certificateImg.style.transformOrigin = `${x}px ${y}px`
+        certificateImg.style.transform = `scale(${zoomScale})`
+    }
+}
 
 // eventos
 
@@ -128,10 +147,91 @@ imageLink.addEventListener("mouseleave", () => {
     step.innerText = stepEmoje
 })
 
-// firstFormation.addEventListener("mouseenter", () => {
-//     step.innerText = "👨🏻‍🎓"
-// })
+certificateImgContainer.addEventListener("click", (event) => {
+    if (zoom === true) {
+        certificateImgContainer.style.cursor = "zoom-in"
+        zoom = false
 
-// firstFormation.addEventListener("mouseleave", () => {
-//     step.innerText = stepEmoje
-// })
+        certificateImg.style.transformOrigin = "center center"
+        certificateImg.style.transform = "scale(1)"
+        zoomScale = 1.5
+
+    } else {
+        certificateImgContainer.style.cursor = "zoom-out"
+        zoom = true
+
+        startZoom(event)
+        certificateImgContainer.addEventListener('mousemove', function (event) {
+            if (zoom === true) {
+                const rect = certificateImgContainer.getBoundingClientRect();
+                const x = event.clientX - rect.left;
+                const y = event.clientY - rect.top;
+
+                certificateImg.style.transformOrigin = `${x}px ${y}px`
+                certificateImg.style.transform = `scale(${zoomScale})`
+            }
+        })
+    }
+
+})
+
+certificateImgContainer.addEventListener("mouseenter", () => {
+    document.body.style.overflow = 'hidden';
+})
+
+certificateImgContainer.addEventListener("mouseleave", () => {
+    zoom = false
+    certificateImgContainer.style.cursor = "zoom-in"
+    certificateImg.style.transformOrigin = "center center"
+    certificateImg.style.transform = "scale(1)"
+
+    document.body.style.overflow = 'auto';
+
+    zoomScale = 1.5
+})
+
+certificateImgContainer.addEventListener("wheel", (event) => {
+    var zoomIncrement = 0.1;
+
+    if (zoom === true) {
+        if (event.deltaY < 0) {
+            zoomScale = Math.min(zoomScale + zoomIncrement, 5);
+            startZoom(event)
+        } else {
+            zoomScale = Math.max(zoomScale - zoomIncrement, 1);
+            startZoom(event)
+        }
+        if (zoomScale < 0) {
+            zoomScale = 0;
+            startZoom(event)
+        }
+    }
+})
+
+// var downCertificates = document.getElementById('down-certificates');
+// var upCertificates = document.getElementById('up-certificates');
+
+// const certificateList = document.getElementById("certificate-list")
+
+// downCertificates.addEventListener('mousedown', function () {
+//     certificateList.scrollBy({
+//         top: 100,
+//         behavior: 'smooth'
+//     });
+// });
+
+// upCertificates.addEventListener('click', function () {
+//     certificateList.scrollBy(0, -100);
+// });
+
+function handleLiClick(event) {
+    if (event.target.tagName === 'LI') {
+        const lis = document.querySelectorAll('li');
+        lis.forEach(li => li.classList.remove('highlight'));
+
+        event.target.classList.add('highlight');
+
+        const certificateImg = document.getElementById("certificate-img")
+        certificateImg.src = `/assets/certificates/emsvg/${event.target.id}.svg `
+    }
+}

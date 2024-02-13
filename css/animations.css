@@ -24,3 +24,8 @@ li.normal-line:hover {
 #personal-knowledge-list .normal-line:hover {
     list-style: disc;
 }
+
+.select{
+    font-size: 12px;
+    color: #000;
+}

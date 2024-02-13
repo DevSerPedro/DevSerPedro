@@ -41,7 +41,6 @@
     color: black;
 }
 
-
 #profile-options {
     user-select: none;
     opacity: 80%;
@@ -274,7 +273,6 @@ ul.formation:last-child {
     margin-bottom: 0px;
 }
 
-
 /* ----------------------------------------- Segunda pagina ------------------------------------------------ */
 
 /* personal-experiences */
@@ -301,8 +299,6 @@ span.line-experience {
 .experience p:nth-child(4) {
     margin-top: 10px;
 }
-
-
 
 #personal-experience-list li,
 #personal-courses li {
@@ -338,8 +334,89 @@ span.line-experience {
     background-color: var(--square-color);
 }
 
-
 ul.knowledge-list h3 {
     text-align: center;
     text-transform: uppercase;
+}
+
+section#personal-certificates {
+    height: 565px;
+}
+
+#certificates-body {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+    margin: 0 10px;
+
+    background-color: var(--square-color);
+}
+
+#certificate-linguagens-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#certificates-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    
+    background-color: #00000021;
+    border-radius: 10px;
+}
+
+#certificates-options i{
+    cursor: pointer;
+    /* background-color: red; */
+    width: 100%;
+    text-align: center;
+}
+
+#certificate-list {
+    overflow-y: scroll;
+
+    height: 250px;
+    width: 100%;
+
+    list-style: none;
+    border-top: 1px dashed var(--link-color);
+}
+
+#certificate-list li {
+    padding: 10px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+#certificate-list li :last-child {
+    margin-bottom: 0px;
+}
+
+#certificate-list li:nth-child(odd) {
+    background-color: #00000021;
+}
+
+#certificate-img-container {
+    /* cursor: zoom-in; */
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    border: 3px solid var(--list-color);
+    position: relative;
+}
+
+#certificate-img {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
 }
