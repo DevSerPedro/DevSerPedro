@@ -102,7 +102,12 @@ profileOptions.addEventListener("mouseleave", () => {
 })
 
 profileOptions.addEventListener('click', () => {
+    const certificateImg = document.getElementById("certificate-img")
+    const myPhoto = document.getElementById("my-photo")
     if (darkMode === false) {
+        certificateImg.style.filter = "brightness(70%)"
+        myPhoto.style.filter = "brightness(70%)"
+
         modoNoturno();
         darkMode = true
         localStorage.setItem("darkMode", darkMode)
@@ -115,7 +120,12 @@ profileOptions.addEventListener('click', () => {
         profileOptions.classList.remove("day")
         profileOptions.classList.add("night")
 
+
+
     } else {
+        certificateImg.style.filter = "brightness(100%)"
+        myPhoto.style.filter = "brightness(100%)"
+
         modoNormal()
         darkMode = false
         localStorage.setItem("darkMode", darkMode)
@@ -152,6 +162,8 @@ certificateImgContainer.addEventListener("click", (event) => {
         certificateImgContainer.style.cursor = "zoom-in"
         zoom = false
 
+        document.body.style.overflow = 'auto';
+
         certificateImg.style.transformOrigin = "center center"
         certificateImg.style.transform = "scale(1)"
         zoomScale = 1.5
@@ -159,6 +171,7 @@ certificateImgContainer.addEventListener("click", (event) => {
     } else {
         certificateImgContainer.style.cursor = "zoom-out"
         zoom = true
+        document.body.style.overflow = 'hidden';
 
         startZoom(event)
         certificateImgContainer.addEventListener('mousemove', function (event) {
@@ -173,10 +186,6 @@ certificateImgContainer.addEventListener("click", (event) => {
         })
     }
 
-})
-
-certificateImgContainer.addEventListener("mouseenter", () => {
-    document.body.style.overflow = 'hidden';
 })
 
 certificateImgContainer.addEventListener("mouseleave", () => {

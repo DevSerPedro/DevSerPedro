@@ -2,7 +2,6 @@ li.normal-line:hover {
     margin-left: 6px;
 }
 
-
 #image-link #photo-help:hover {
     opacity: 100%;
 }
@@ -25,7 +24,7 @@ li.normal-line:hover {
     list-style: disc;
 }
 
-.select{
+.select {
     font-size: 12px;
     color: #000;
 }

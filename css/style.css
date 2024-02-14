@@ -16,11 +16,11 @@
         -moz-box-shadow: rgba(0, 0, 0, 0) -100px -100px 0px -100px; */
     }
 
-    #hide-certificate{
+    #hide-certificate {
         display: none;
     }
 
-    #info-certificates{
+    #info-certificates {
         display: block;
     }
 }
@@ -208,7 +208,7 @@ li.simple-line {
     justify-content: center;
     align-items: center;
 
-    opacity: 0;
+    opacity: 0%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -374,12 +374,12 @@ section#personal-certificates {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    
+
     background-color: #00000021;
     border-radius: 10px;
 }
 
-#certificates-options i{
+#certificates-options i {
     cursor: pointer;
     /* background-color: red; */
     width: 100%;
