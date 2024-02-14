@@ -216,7 +216,7 @@ function handleLiClick(event) {
         event.target.classList.add('highlight');
 
         const certificateImg = document.getElementById("certificate-img")
-        certificateImg.src = `/assets/certificates/empng/${event.target.id}.png `
+        certificateImg.src = `https://github.com/DevPedroAugusto/DevPedroAugusto/blob/main/assets/certificates/empng/${event.target.id}.png?raw=true`
     }
 }
 
