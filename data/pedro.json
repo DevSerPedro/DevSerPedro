@@ -88,9 +88,9 @@
     ],
     "Cursos": [
         {
-            "Curso": "Udemy",
+            "Curso": "Formação Front-End",
             "Link": "https://www.udemy.com/course/formacao-front-end-html-css-javascript-react-e/learn/lecture/38412600?start=0#overview",
-            "Plataforma": "Dio",
+            "Plataforma": "Udemy",
             "Tempo": "50 horas",
             "Conteudo": "HTML, CSS, JavaScript, React"
         },
